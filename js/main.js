@@ -9,8 +9,6 @@ buttonReset.style.display = 'none';
 
 button.addEventListener('click', (e) => {
 
-    e.preventDefault();
-
     const span = document.createElement('span');
 
     if (input.value == numero && input.value != '') {
