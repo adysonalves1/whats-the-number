@@ -1,0 +1,9 @@
+@media (max-width: 540px) {
+    .container h1{
+        font-size: 1.8rem;
+    }
+
+    .info span{
+        font-size: 16px;
+    }
+}
