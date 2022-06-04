@@ -26,7 +26,8 @@ button.addEventListener('click', (e) => {
         manual.style.display = 'none';
         container.style.display = 'block';
         span.classList.add('correct');
-        container.insertAdjacentElement('afterbegin',span).innerHTML = `<strong>Você acertou!!!</strong> o número secreto era: ${input.value} <br/>`;
+        container.insertAdjacentElement('afterbegin',span).innerHTML = `<strong>Você acertou!!!</strong> o número secreto é: ${input.value} <br/>`;
+        button.style.display = 'none'
         buttonReset.style.display = 'block';
 
     } else if (input.value < numero && input.value != '') {
