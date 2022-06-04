@@ -29,7 +29,7 @@
 
 <body>
 
-    <div class="container">
+     <div class="container">
 
         <h1>What's the number?</h1>
 
@@ -37,9 +37,9 @@
         <div class="count">
         </div>
 
-        <input class="input" type="number" placeholder="qual o seu palpite?" autofocus>
+        <input class="input" type="number" placeholder="digite seu palpite" min="0" max="1000" autofocus>
         <input class="button" type="submit" value="TENTAR">
-        <button class="button-reset" onclick="location.reload()">NOVA RODADA</button>
+        <button class="button-reset" onclick="reset()">NOVA RODADA</button>
 
         <div class="info">
         </div>
@@ -58,7 +58,7 @@
 
     <footer>
         <p>Desenvolvido por: <a href="mailto:adyson6@gmail.com">Adyson Alves</a></p>
-        <span>v1.1.0</span>
+        <span>v1.1.1</span>
     </footer>
 
     <script src="./js/mainObf.js"></script>
