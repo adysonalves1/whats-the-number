@@ -140,7 +140,7 @@ input::placeholder{
 footer{
     text-align: center;
     padding: 15px;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 25%;
     right: 25%;
