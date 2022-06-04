@@ -138,6 +138,11 @@ input::placeholder{
     border: 4px solid rgb(217, 40, 40);
 }
 
+.gold{
+    border: 4px solid rgb(217, 167, 40);
+}
+
+
 
 .instructions{
     width: 100%;
